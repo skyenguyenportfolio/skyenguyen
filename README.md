@@ -1,3 +1,12 @@
-I created this website based on the mock up I made from User Experience class. It should be a web portfolio but I haven't had any finished work, so I chose to get assets from free resources. The challenging thing I faced was creating the website that is close to the mock up as much as possible. Because I'm not yet good enough to develop the site as exactly what I want it to be, it's slightly different. As the minimalism person, I want to make a simple website, flat and minimalize the content. I chose the sun and clouds as website header because my real name means 'Sun' and my English name pronounced like 'Sky'. I like pink and red. I think these colors are friendly to everyone, not too bright, not too dark, so I chose this color tone to the entire website. I like the homepage doesn't have much text so I decided to make it visualized by cards of each category and used flex to organize them. There were so many ideas go on in my head about how my website will look like when I was designing it. But when making it alive, it became my limit because my skills are still a fledgling. Therefore, I had to cut off some elements (which must be done by javascript). I got stuck sometimes with animation and how the photos display on mobile/tablet version because I didn't want it to be full size. I searched more about them on W3S and I also have got guidance from Henry during the development (and this class in general). So, from this assignment, I've learned more about Flex, Transition, Animation,... In general, my web portfolio is just a simple website, but it reflects myself best. 
+Hello there!
 
-Assets: https://unsplash.com/
+I’m Skye, a junior UX/UI designer based in Ottawa, Ontario. I just graduated from college on October 2020.
+
+As studying Interactive Media Design, I had opportunity to studied in many different areas, such as, graphic design, product design (UX/UI), motion graphic, web development, content management system (CMS), videography and photography. With the passion for designing website and mobile app, once I learned more about user experience and user-centered design, I decided to focus on this field to prepare for my career as a UX/UI designer.
+
+With the experience that I gained in 2 year college, I am also able to work with front-end developers effectively as I understand basic programming languages., as well as to make product videos that serve other purposes for corporations. 
+
+Outside of design, I love making videos on my personal Youtube channel about life and music. And since I’m a big fan of milk tea, I also enjoy working as a barista at a Taiwanese global franchise bubble tea shop in Ottawa. 
+
+Want to share something with me? Or would like to work together? I’d love to hear from you!
+
