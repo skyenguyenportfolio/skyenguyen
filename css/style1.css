@@ -1,0 +1,493 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/****************************************************************/
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    margin: 0 auto;
+    font-size: 1rem;
+    font-family: Avenir;
+    background: #FFE9E9;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.main-nav{
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.main-nav li{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.main-nav a:link,
+.main-nav a:visited{
+    color: #DB6767;
+}
+
+.main-nav:hover a{
+    color: #9B3232;
+    transition: 0.5s;
+}
+
+.logo{
+    max-height: 70px;
+    max-width: 70px;
+}
+
+.greeting{
+    display: block;
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.wrap-banner{
+    text-align: center;
+}
+
+.banner{
+    position: relative;
+    display: inline-block;
+    margin: 0 30px;
+    max-width: 70%;
+    margin-top: 100px;
+}
+
+.cloud1{
+    position: absolute;
+    display: block;
+    left: 25%;
+    top: 10%;
+    max-height: 20%;
+    max-width: 20%;
+    animation: cloud 15s infinite;
+}
+
+.cloud2{
+    position: absolute;
+    display: block;
+    top: 30%;
+    right: 325px;
+    max-height: 25%;
+    max-width: 25%;
+    animation: cloud 20s infinite;
+}
+
+.cloud3{
+    position: absolute;
+    display: block;
+    top: 25%;
+    right: 9px;
+    max-height: 20%;
+    max-width: 20%;
+    animation: cloud 15s infinite;
+}
+
+
+@keyframes cloud{
+    20%{
+        transform: translate(30px);
+    }
+    
+    60%{
+        transform: translate(-30px);
+    }
+    
+    
+     80%{
+        transform: translate(20px);
+    }
+    
+    
+    100%{
+        transform: translate(0px);
+    }
+      
+}
+
+
+/***********************************/
+
+.main{
+    background: white;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+}
+
+.description{
+    font-size: 1.2rem;
+    color: #D3524F;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+
+p{
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 340px;
+    text-align: center;
+}
+
+.contact-form{
+    padding: 50px;
+    }
+    
+label{
+    display: inline-block;
+    width: 150px;
+    margin-right: 10px;
+    margin-top: 5px;
+    color: #D3524F;
+    font-weight: bold;
+}
+
+input{
+    margin-top: 10px;
+    width: 345px;
+    padding: 12px;
+}
+
+textarea{
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 345px;
+    min-width: 345px;
+    max-width: 345px;
+    height: 120px;
+    min-height: 120px;
+    max-height: 120px;
+}
+
+.submit{
+    text-align: center;
+    margin-top: 35px;
+}
+
+input[type="submit"]{
+    display: inline-block;
+    background: #DB6767;
+    border-radius: 5px;
+    border-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background: #D3524F;
+    transition: 0.5s ease-in-out;
+}
+
+
+/**********************/
+
+
+.sub-logo{
+    position: absolute;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.footer-element{
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-element a:link,
+.footer-element a:visited{
+    color: #DB6767;
+}
+
+.footer-element a:hover{
+    color: #9B3232;
+    transition: 0.5s ease-in-out;
+}
+
+.sub-nav li{
+    line-height: 2;
+    margin-right: 40px;
+}
+
+.social-media{
+    position: relative;
+    display: flex;
+}
+
+.title-social-media{
+    line-height: 2;
+}
+
+
+.instagram{
+    max-width: 20px;
+    max-height: 20px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.facebook{
+    max-width: 20px;
+    max-height: 20px;
+    margin-right: 10px;
+    margin-top: 9px;
+}
+
+.youtube{
+    max-width: 20px;
+    max-height: 20px;
+    margin-right: 10px;
+    margin-top: 13px;
+}
+
+
+.copyright{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    color: #DB6767;
+}
+
+/************************************* TABLET *******************************/
+
+
+
+@media screen and (min-width:650px){
+    
+    .top{
+        margin: 0 80px;
+    }
+    
+    .logo{
+        max-width: 90px;
+        max-height: 90px;
+    }
+    
+        
+    .main-nav li{
+        padding: 10px;
+    }
+    
+    .greeting{
+        max-width: 50%;
+    }
+    
+    .cloud1{
+        position: absolute;
+        display: block;
+        left: 25%;
+        top: 10%;
+        max-height: 20%;
+        max-width: 20%;
+        animation: cloud 15s infinite;
+}
+
+    .cloud2{
+        position: absolute;
+        display: block;
+        top: 40%;
+        right: 80%;
+        max-height: 25%;
+        max-width: 25%;
+        animation: cloud 20s infinite;
+    }
+
+    .cloud3{
+        position: absolute;
+        display: block;
+        top: 35%;
+        right: 5%;
+        max-height: 20%;
+        max-width: 20%;
+        animation: cloud 15s infinite;
+    }
+    
+ .sub-nav li{
+        margin-right: 150px;
+    }
+
+}
+
+
+/**************************** DESKTOP *****************************/
+
+
+@media screen and (min-width:960px){
+    
+    .top{
+        margin: 0 200px;
+    }
+    
+    .logo{
+        max-width: 120px;
+        max-height: 120px;
+    }
+    
+    .main-nav li{
+        margin-top: 15px;
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+    
+    .greeting{
+        max-width: 40%;
+    }
+    
+    .banner{
+        max-width: 60%;
+        margin-top: 60px;
+    }
+    
+    
+    .cloud1{
+        position: absolute;
+        display: block;
+        left: 25%;
+        top: 13%;
+        max-height: 20%;
+        max-width: 20%;
+        animation: cloud 15s infinite;
+}
+
+    .cloud2{
+        position: absolute;
+        display: block;
+        top: 50%;
+        right: 75%;
+        max-height: 25%;
+        max-width: 25%;
+        animation: cloud 20s infinite;
+    }
+
+    .cloud3{
+        position: absolute;
+        display: block;
+        top: 40%;
+        right: 5%;
+        max-height: 20%;
+        max-width: 20%;
+        animation: cloud 15s infinite;
+    }
+    
+    .description{
+        font-size: 1.5rem;
+    }
+    
+    p{
+        font-size: 1.2rem;
+        max-width: 550px;
+    }
+    
+    label{
+        font-size: 1.2rem;
+    }
+    
+    .sub-nav li{
+        margin-right: 250px;
+        font-size: 1.1rem;
+        line-height: 2.5;
+    }
+    
+    .title-social-media{
+        font-size: 1.1rem;
+        line-height: 2.5;
+    }
+    
+    .instagram{
+        max-width: 30px;
+        max-height: 30px;
+        margin-right: 20px;
+    }
+    
+    .facebook{
+        max-width: 30px;
+        max-height: 30px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    
+    .youtube{
+        max-width: 30px;
+        max-height: 30px;
+        margin-right: 20px;
+        margin-top: 16px;
+    }
+    
+    .copyright{
+        margin-top: 150px;
+    }
+    
+}
